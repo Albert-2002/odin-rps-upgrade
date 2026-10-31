@@ -586,7 +586,7 @@ button.removeEventListener("click", handleClick);
 
 ### Common events
 
-```
+```text
 click, dblclick, mouseover, mouseout, mousemove
 keydown, keyup, keypress
 submit, change, input, focus, blur
@@ -1159,7 +1159,7 @@ function throttle(fn, limit) {
 
 JavaScript has a **single thread**, a **call stack**, and uses the **event loop** to handle async code without blocking.
 
-```
+```text
 Call Stack → runs your code, one frame at a time
 Web APIs   → browser handles timers, fetch, DOM events in the background
 Callback / Task Queue → holds callbacks ready to run (setTimeout, events)
@@ -1312,22 +1312,22 @@ Common matchers: `toBe`, `toEqual`, `toBeTruthy`, `toBeNull`, `toContain`, `toTh
 
 ### Intermediate (async, APIs, more complex state)
 
-7. **Weather App** — fetch from a weather API, handle loading/error states
-8. **Movie Search App** — OMDB API, debounced search input
-9. **Expense Tracker** — CRUD with localStorage persistence
-10. **Recipe Finder** — filter/search fetched data
-11. **Pomodoro Timer** — with start/pause/reset and settings
-12. **GitHub Profile Viewer** — fetch and display GitHub user data via their public API
+1. **Weather App** — fetch from a weather API, handle loading/error states
+2. **Movie Search App** — OMDB API, debounced search input
+3. **Expense Tracker** — CRUD with localStorage persistence
+4. **Recipe Finder** — filter/search fetched data
+5. **Pomodoro Timer** — with start/pause/reset and settings
+6. **GitHub Profile Viewer** — fetch and display GitHub user data via their public API
 
 ### Advanced (architecture, patterns, real complexity)
 
-13. **Kanban Board** (Trello clone) — drag & drop, localStorage or backend
-14. **Chat App (mock or real-time with WebSockets/Firebase)**
-15. **E-commerce Cart** — product listing, cart state, checkout flow
-16. **Markdown Editor** — live preview, syntax parsing
-17. **Multiplayer game or canvas-based game** (Snake, Tetris clone)
-18. **Personal Dashboard** — combines multiple APIs (weather, news, tasks)
-19. **Build your own small framework/library** — e.g., a mini state-management library, to deeply understand how tools like Redux work
+1. **Kanban Board** (Trello clone) — drag & drop, localStorage or backend
+2. **Chat App (mock or real-time with WebSockets/Firebase)**
+3. **E-commerce Cart** — product listing, cart state, checkout flow
+4. **Markdown Editor** — live preview, syntax parsing
+5. **Multiplayer game or canvas-based game** (Snake, Tetris clone)
+6. **Personal Dashboard** — combines multiple APIs (weather, news, tasks)
+7. **Build your own small framework/library** — e.g., a mini state-management library, to deeply understand how tools like Redux work
 
 **Tip**: For each project, try building it three ways as you grow — vanilla JS first, then with a framework (React/Vue) later once you get there, then with tests.
 
