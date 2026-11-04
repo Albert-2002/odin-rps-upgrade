@@ -14,4 +14,47 @@
 
 body {
   font-family: Roboto, sans-serif;
+  background-color: #1f2937;
+}
+
+/* Header Styles */
+
+header {
+  color: #f9faf8;
+  display: flex;
+  align-items: center;
+  padding: 20px 50px;
+  justify-content: flex-start;
+  gap: 25rem;
+  border: 1px solid #e5e7eb;
+}
+
+nav {
+  display: flex;
+  gap: 2rem;
+}
+
+nav p {
+  font-weight: bold;
+}
+
+.choices {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 50px;
+}
+
+.choices button {
+  font-size: 1.5rem;
+  padding: 10px 20px;
+  border: solid 1px #e5e7eb;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.choices button:hover {
+  background-color: #f59e0b;
+  transform: scale(1.1);
 }
