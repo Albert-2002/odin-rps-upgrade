@@ -38,6 +38,8 @@ nav p {
   font-weight: bold;
 }
 
+/* Choices Styles */
+
 .choices {
   display: flex;
   justify-content: center;
@@ -48,7 +50,7 @@ nav p {
 .choices button {
   font-size: 1.5rem;
   padding: 10px 20px;
-  border: solid 1px #e5e7eb;
+  border: solid 2px #db42db;
   border-radius: 5px;
   cursor: pointer;
   transition: transform 0.2s;
@@ -57,4 +59,8 @@ nav p {
 .choices button:hover {
   background-color: #f59e0b;
   transform: scale(1.1);
+}
+
+.choices button:active {
+  transform: scale(0.95);
 }
